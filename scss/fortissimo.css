@@ -205,7 +205,7 @@
   @media screen and (min-width: 64em) {
     .open-sans h1 {
       font-size: 4rem;
-      line-height: 8rem; }
+      line-height: 5rem; }
     .open-sans h2 {
       font-size: 3rem;
       line-height: 4rem; } }
@@ -334,7 +334,7 @@
   @media screen and (min-width: 64em) {
     .pt-sans h1 {
       font-size: 4rem;
-      line-height: 8rem; }
+      line-height: 5rem; }
     .pt-sans h2 {
       font-size: 3rem;
       line-height: 4rem; } }
