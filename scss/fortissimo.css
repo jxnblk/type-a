@@ -1,0 +1,237 @@
+.bold {
+  font-weight: bold; }
+
+.regular {
+  font-weight: normal; }
+
+.italic {
+  font-style: italic; }
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: .2em; }
+
+.center {
+  text-align: center; }
+
+.right-align {
+  text-align: right; }
+
+.measure {
+  max-width: 48rem; }
+
+.measure-narrow {
+  max-width: 32rem; }
+
+.measure-wide {
+  max-width: 60rem; }
+
+.leading-1 {
+  line-height: 1.5rem; }
+
+.leading-2 {
+  line-height: 2rem; }
+
+.leading-3 {
+  line-height: 3rem; }
+
+.leading-4 {
+  line-height: 4rem; }
+
+.helvetica {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 1.5rem; }
+  .helvetica h1 {
+    font-size: 2rem;
+    line-height: 3rem; }
+  .helvetica h2 {
+    font-size: 1.5rem;
+    line-height: 2rem; }
+  .helvetica h3 {
+    font-size: 1.25rem;
+    line-height: 2rem; }
+  .helvetica h4, .helvetica p, .helvetica dl, .helvetica ol, .helvetica ul {
+    font-size: 1rem; }
+  .helvetica h5 {
+    font-size: 0.875rem; }
+  .helvetica h6, .helvetica small {
+    font-size: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    .helvetica h1 {
+      font-size: 4rem;
+      line-height: 5rem; }
+    .helvetica h2 {
+      font-size: 2rem;
+      line-height: 3rem; }
+    .helvetica h3 {
+      font-size: 1.5rem;
+      line-height: 2rem; }
+    .helvetica h4 {
+      font-size: 1.25rem;
+      line-height: 2rem; }
+    .helvetica h5 {
+      font-size: 1rem; }
+    .helvetica h6 {
+      font-size: 0.875rem; } }
+  @media screen and (min-width: 64em) {
+    .helvetica h1 {
+      font-size: 6rem;
+      line-height: 8rem; }
+    .helvetica h2 {
+      font-size: 3rem;
+      line-height: 4rem; } }
+
+.merriweather {
+  font-family: 'Merriweather', serif;
+  line-height: 1.5rem; }
+  .merriweather h1 {
+    font-size: 2rem;
+    line-height: 3rem; }
+  .merriweather h2 {
+    font-size: 1.5rem;
+    line-height: 2rem; }
+  .merriweather h3 {
+    font-size: 1.25rem;
+    line-height: 2rem; }
+  .merriweather h4, .merriweather p, .merriweather dl, .merriweather ol, .merriweather ul {
+    font-size: 1rem; }
+  .merriweather h5 {
+    font-size: 0.875rem; }
+  .merriweather h6, .merriweather small {
+    font-size: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    .merriweather h1 {
+      font-size: 4rem;
+      line-height: 5rem; }
+    .merriweather h2 {
+      font-size: 2rem;
+      line-height: 3rem; }
+    .merriweather h3 {
+      font-size: 1.5rem;
+      line-height: 2rem; }
+    .merriweather h4 {
+      font-size: 1.25rem;
+      line-height: 2rem; }
+    .merriweather h5 {
+      font-size: 1rem; }
+    .merriweather h6 {
+      font-size: 0.875rem; } }
+  @media screen and (min-width: 64em) {
+    .merriweather h1 {
+      font-size: 6rem;
+      line-height: 8rem; }
+    .merriweather h2 {
+      font-size: 3rem;
+      line-height: 4rem; } }
+
+.garamond {
+  font-family: 'EB Garamond', serif;
+  line-height: 1.5rem; }
+  .garamond h1 {
+    font-size: 2.25rem;
+    line-height: 3rem; }
+  .garamond h2 {
+    font-size: 1.6875rem;
+    line-height: 2rem; }
+  .garamond h3 {
+    font-size: 1.40625rem;
+    line-height: 2rem; }
+  .garamond h4, .garamond p, .garamond dl, .garamond ol, .garamond ul {
+    font-size: 1.125rem; }
+  .garamond h5 {
+    font-size: 0.98438rem; }
+  .garamond h6, .garamond small {
+    font-size: 0.84375rem; }
+  @media screen and (min-width: 48em) {
+    .garamond h1 {
+      font-size: 4.5rem;
+      line-height: 5rem; }
+    .garamond h2 {
+      font-size: 2.25rem;
+      line-height: 3rem; }
+    .garamond h3 {
+      font-size: 1.6875rem;
+      line-height: 2rem; }
+    .garamond h4 {
+      font-size: 1.40625rem;
+      line-height: 2rem; }
+    .garamond h5 {
+      font-size: 1.125rem; }
+    .garamond h6 {
+      font-size: 0.98438rem; } }
+  @media screen and (min-width: 64em) {
+    .garamond h1 {
+      font-size: 6.75rem;
+      line-height: 8rem; }
+    .garamond h2 {
+      font-size: 3.375rem;
+      line-height: 4rem; } }
+
+.open-sans {
+  font-family: 'Open Sans', serif;
+  line-height: 1.5rem; }
+  .open-sans h1 {
+    font-size: 2rem;
+    line-height: 3rem; }
+  .open-sans h2 {
+    font-size: 1.5rem;
+    line-height: 2rem; }
+  .open-sans h3 {
+    font-size: 1.25rem;
+    line-height: 2rem; }
+  .open-sans h4, .open-sans p, .open-sans dl, .open-sans ol, .open-sans ul {
+    font-size: 1rem; }
+  .open-sans h5 {
+    font-size: 0.875rem; }
+  .open-sans h6, .open-sans small {
+    font-size: 0.75rem; }
+  @media screen and (min-width: 48em) {
+    .open-sans h1 {
+      font-size: 4rem;
+      line-height: 5rem; }
+    .open-sans h2 {
+      font-size: 2rem;
+      line-height: 3rem; }
+    .open-sans h3 {
+      font-size: 1.5rem;
+      line-height: 2rem; }
+    .open-sans h4 {
+      font-size: 1.25rem;
+      line-height: 2rem; }
+    .open-sans h5 {
+      font-size: 1rem; }
+    .open-sans h6 {
+      font-size: 0.875rem; } }
+  @media screen and (min-width: 64em) {
+    .open-sans h1 {
+      font-size: 6rem;
+      line-height: 8rem; }
+    .open-sans h2 {
+      font-size: 3rem;
+      line-height: 4rem; } }
+
+/*
+  <!--
+  <style>
+    .georgia { font-family: Georgia, serif; }
+    .merriweather { font-family: 'Merriweather', serif; }
+    .garamond { font-family: 'EB Garamond', serif; }
+    .cardo { font-family: 'Cardo', serif; }
+
+    .helvetica { font-family: 'Helvetica Neue', Helvetica, sans-serif; }
+    .open-sans { font-family: 'Open Sans', sans-serif; }
+    .source-sans { font-family: 'Source Sans Pro', sans-serif; }
+    .pt-sans { font-family: 'PT Sans', sans-serif; }
+  </style>
+  -->
+  <!--
+    Fonts:
+    Vollkorn
+    Gentium Book
+    Lato
+    Oswald
+    Old Standard TT
+    PT Serif
+
+  -->
+ */

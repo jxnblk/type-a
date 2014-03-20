@@ -1,0 +1,79 @@
+// Merriweather
+
+
+.merriweather {
+
+  $scale-ratio: 1;
+
+  font-family: 'Merriweather', serif;
+  line-height: 1.5rem;
+
+  h1 {
+    font-size: $h1 * $scale-ratio;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: $h2 * $scale-ratio;
+    line-height: 2rem;
+  }
+
+  h3 {
+    font-size: $h3 * $scale-ratio;
+    line-height: 2rem;
+  }
+
+  h4, p, dl, ol, ul {
+    font-size: $h4 * $scale-ratio;
+  }
+
+  h5 {
+    font-size: $h5 * $scale-ratio;
+  }
+
+  h6, small {
+    font-size: $h6 * $scale-ratio;
+  }
+
+
+  // Responsive Type Scale
+
+  @media screen and (min-width: $bp1) {
+    h1 {
+      font-size: $bp1-h1 * $scale-ratio;
+      line-height: 5rem;
+    }
+    h2 {
+      font-size: $bp1-h2 * $scale-ratio;
+      line-height: 3rem;
+    }
+    h3 {
+      font-size: $bp1-h3 * $scale-ratio;
+      line-height: 2rem;
+    }
+    h4 {
+      font-size: $bp1-h4 * $scale-ratio;
+      line-height: 2rem;
+    }
+    h5 {
+      font-size: $bp1-h5 * $scale-ratio;
+    }
+    h6 {
+      font-size: $bp1-h6 * $scale-ratio;
+    }
+  }
+
+  @media screen and (min-width: $bp2) {
+    h1 {
+      font-size: $bp2-h1 * $scale-ratio;
+      line-height: 8rem;
+    }
+    h2 {
+      font-size: $bp2-h2 * $scale-ratio;
+      line-height: 4rem;
+    }
+  }
+}
+
+
+
