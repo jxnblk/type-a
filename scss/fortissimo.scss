@@ -1,7 +1,6 @@
 // Fortissimo
 
 
-@import "type-scale";
 @import "type-utilities";
 
 @import "helvetica";
@@ -11,24 +10,16 @@
 
 @import "cardo";
 @import "source-sans";
+@import "pt-sans";
 
 /*
-  <!--
-  <style>
-    .georgia { font-family: Georgia, serif; }
-
-    .source-sans { font-family: 'Source Sans Pro', sans-serif; }
-    .pt-sans { font-family: 'PT Sans', sans-serif; }
-  </style>
-  -->
-  <!--
     Fonts:
-    Vollkorn
-    Gentium Book
-    Lato
-    Oswald
-    Old Standard TT
-    PT Serif
+    - .georgia { font-family: Georgia, serif; }
+    - Vollkorn
+    - Gentium Book
+    - Lato
+    - Oswald
+    - Old Standard TT
+    - PT Serif
 
-  -->
  */

@@ -2,77 +2,33 @@
 
 .garamond {
 
-  $scale-ratio: 1.125;
+  //$scale-ratio: 1.125;
 
   font-family: 'EB Garamond', serif;
   line-height: 1.5rem;
 
-  h1 {
-    font-size: $h1 * $scale-ratio;
-    line-height: 3rem;
+  h1 { font-size: 2rem; line-height: 3rem; }
+  h2 { font-size: 1.5rem; line-height: 2rem; }
+  h3 { font-size: 1.25rem; line-height: 2rem; }
+
+  h4, p, dl, ol, ul { font-size: 1rem; }
+  h5 { font-size: .875rem; }
+  h6, small { font-size: .75rem; }
+
+  @media screen and (min-width: 48em) {
+    h1 { font-size: 3rem; line-height: 4rem; }
+    h2 { font-size: 2rem; line-height: 3rem; }
+    h3 { font-size: 1.5rem; line-height: 2rem; }
+
+    h4, p, dl, ol, ul { font-size: 1.25rem; line-height: 2rem; }
+    h5 { font-size: 1rem; }
+    h6, small { font-size: .875rem; }
   }
 
-  h2 {
-    font-size: $h2 * $scale-ratio;
-    line-height: 2rem;
+  @media screen and (min-width: 64em) {
+    h1 { font-size: 4rem; line-height: 5rem; }
+    h2 { font-size: 3rem; line-height: 4rem; }
   }
 
-  h3 {
-    font-size: $h3 * $scale-ratio;
-    line-height: 2rem;
-  }
-
-  h4, p, dl, ol, ul {
-    font-size: $h4 * $scale-ratio;
-  }
-
-  h5 {
-    font-size: $h5 * $scale-ratio;
-  }
-
-  h6, small {
-    font-size: $h6 * $scale-ratio;
-  }
-
-
-  // Responsive Type Scale
-
-  @media screen and (min-width: $bp1) {
-    h1 {
-      font-size: $bp1-h1 * $scale-ratio;
-      line-height: 5rem;
-    }
-    h2 {
-      font-size: $bp1-h2 * $scale-ratio;
-      line-height: 3rem;
-    }
-    h3 {
-      font-size: $bp1-h3 * $scale-ratio;
-      line-height: 2rem;
-    }
-    h4, p, dl, ol, ul {
-      font-size: $bp1-h4 * $scale-ratio;
-      line-height: 2rem;
-    }
-    h5 {
-      font-size: $bp1-h5 * $scale-ratio;
-    }
-    h6, small {
-      font-size: $bp1-h6 * $scale-ratio;
-    }
-  }
-
-  @media screen and (min-width: $bp2) {
-    h1 {
-      font-size: $bp2-h1 * $scale-ratio;
-      line-height: 8rem;
-    }
-    h2 {
-      font-size: $bp2-h2 * $scale-ratio;
-      line-height: 4rem;
-    }
-  }
 }
-
-
 
