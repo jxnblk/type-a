@@ -15,18 +15,23 @@ $light-yellow: #fea;
 $slate: #506670;
 $light-blue: #aef;
 $turquoise: #0cc;
+$red: #f63;
+$dark-red: #310;
 
 $warm-gray: #a09f96;
+$warm-gray: #807f76;
 
 .bg-dark-blue { background-color: rgba($dark-blue, .8); }
 .bg-light-yellow { background-color: rgba($light-yellow, .3); }
 .bg-slate { background-color: rgba($slate, .8); }
 .bg-light-blue { background-color: rgba($light-blue, .8); }
 .bg-turquoise { background-color: rgba($turquoise, .8); }
-.bg-warm-gray { background-color: rgba($warm-gray, .2); }
+.bg-warm-gray { background-color: rgba($warm-gray, .9); }
 
 .slate { color: $slate; }
 .turquoise { color: turquoise; }
+.dark-red { color: $dark-red; }
+.light-yellow { color: $light-yellow; }
 
 .white { color: #fff; }
 .blue { color: $blue; }

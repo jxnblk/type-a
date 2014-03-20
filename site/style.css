@@ -412,13 +412,19 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
   background-color: rgba(0, 204, 204, 0.8); }
 
 .bg-warm-gray {
-  background-color: rgba(160, 159, 150, 0.2); }
+  background-color: rgba(128, 127, 118, 0.9); }
 
 .slate {
   color: #506670; }
 
 .turquoise {
   color: turquoise; }
+
+.dark-red {
+  color: #331100; }
+
+.light-yellow {
+  color: #ffeeaa; }
 
 .white {
   color: #fff; }
@@ -436,7 +442,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
   color: #333333; }
 
 .red {
-  color: #ff5522; }
+  color: #ff6633; }
 
 .green {
   color: #00ff66; }
@@ -460,7 +466,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
   background-color: #333333; }
 
 .bg-red {
-  background-color: #ff5522; }
+  background-color: #ff6633; }
 
 .bg-green {
   background-color: #00ff66; }
