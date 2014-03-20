@@ -154,7 +154,10 @@ a {
 .bg-grid {
   background-image: linear-gradient(#fff 87.5%, #ccc 87.5%);
   background-size: 8px 8px;
+}
 
+.shadow-left {
+  box-shadow: -2rem 0 2rem rgba(#000,.2);
 }
 
 // Layout debugging

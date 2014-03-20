@@ -252,6 +252,19 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 .half-width {
   width: 50%; }
 
+@media (min-width: 40em) {
+  .fifth {
+    width: 20%; }
+
+  .aspect-2o1 {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%; } }
+@media (max-width: 40em) {
+  .mobile-aspect-2o1 {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%; } }
 .mobile-show {
   display: none; }
 
@@ -529,3 +542,6 @@ a {
 .bg-grid {
   background-image: linear-gradient(white 87.5%, #cccccc 87.5%);
   background-size: 8px 8px; }
+
+.shadow-left {
+  box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.2); }
