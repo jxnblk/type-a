@@ -1,7 +1,4 @@
-// Example theme
-//
-// Edit these styles to adjust the look and feel of your site
-
+// Fortissimo theme
 
 $blue: #0096cc;
 $light-gray: #eee;
@@ -12,6 +9,24 @@ $red: #f52;
 $green: #0f6;
 $orange: #fc2;
 
+// Fortissimo colors
+$dark-blue: #245;
+$light-yellow: #fea;
+$slate: #506670;
+$light-blue: #aef;
+$turquoise: #0cc;
+
+$warm-gray: #a09f96;
+
+.bg-dark-blue { background-color: rgba($dark-blue, .8); }
+.bg-light-yellow { background-color: rgba($light-yellow, .3); }
+.bg-slate { background-color: rgba($slate, .8); }
+.bg-light-blue { background-color: rgba($light-blue, .8); }
+.bg-turquoise { background-color: rgba($turquoise, .8); }
+.bg-warm-gray { background-color: rgba($warm-gray, .2); }
+
+.slate { color: $slate; }
+.turquoise { color: turquoise; }
 
 .white { color: #fff; }
 .blue { color: $blue; }
@@ -24,7 +39,7 @@ $orange: #fc2;
 .orange { color: $orange; }
 
 .bg-white { background-color: #fff; }
-.bg-blue { background-color: $blue; }
+.bg-blue { background-color: rgba($blue,.5); }
 .bg-light-gray { background-color: rgba($light-gray,.5); }
 .bg-mid-gray { background-color: rgba($mid-gray,.5); }
 .bg-dark-gray { background-color: $dark-gray; }
@@ -141,4 +156,7 @@ a {
   background-size: 8px 8px;
 
 }
+
+// Layout debugging
+//* { outline: 1px solid rgba($blue, .5); }
 

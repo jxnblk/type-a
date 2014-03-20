@@ -50,14 +50,14 @@
       font-size: $bp1-h3 * $scale-ratio;
       line-height: 2rem;
     }
-    h4 {
+    h4, p, dl, ol, ul {
       font-size: $bp1-h4 * $scale-ratio;
       line-height: 2rem;
     }
     h5 {
       font-size: $bp1-h5 * $scale-ratio;
     }
-    h6 {
+    h6, small {
       font-size: $bp1-h6 * $scale-ratio;
     }
   }

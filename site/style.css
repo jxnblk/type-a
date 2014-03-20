@@ -379,6 +379,30 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
   margin: auto;
   display: table; }
 
+.bg-dark-blue {
+  background-color: rgba(34, 68, 85, 0.8); }
+
+.bg-light-yellow {
+  background-color: rgba(255, 238, 170, 0.3); }
+
+.bg-slate {
+  background-color: rgba(80, 102, 112, 0.8); }
+
+.bg-light-blue {
+  background-color: rgba(170, 238, 255, 0.8); }
+
+.bg-turquoise {
+  background-color: rgba(0, 204, 204, 0.8); }
+
+.bg-warm-gray {
+  background-color: rgba(160, 159, 150, 0.2); }
+
+.slate {
+  color: #506670; }
+
+.turquoise {
+  color: turquoise; }
+
 .white {
   color: #fff; }
 
@@ -407,7 +431,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
   background-color: #fff; }
 
 .bg-blue {
-  background-color: #0096cc; }
+  background-color: rgba(0, 150, 204, 0.5); }
 
 .bg-light-gray {
   background-color: rgba(238, 238, 238, 0.5); }
