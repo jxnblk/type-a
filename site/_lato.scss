@@ -1,27 +1,27 @@
-// Open Sans
+// Lato
 
 
-.open-sans {
+.lato {
 
-  //$scale-ratio: .875;
-
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1.5rem;
 
-  h1 { font-size: 2.25rem; line-height: 3rem; }
-  h2 { font-size: 1.5rem; line-height: 2rem; }
+  h1 { font-size: 2.5rem; line-height: 3rem; }
+  h2 { font-size: 1.5rem; line-height: 2.5rem; }
   h3 { font-size: 1.25rem; line-height: 2rem; }
 
-  h4, p, dl, ol, ul { font-size: 1rem; } 
+  h4, p, dl, ol, ul { font-size: 1.125rem; line-height: 2rem; }
+
   h5 { font-size: .875rem; }
   h6, small { font-size: .75rem; }
 
   @media screen and (min-width: 48em) {
-    h1 { font-size: 3rem; line-height: 4rem; }
-    h2 { font-size: 2rem; line-height: 3rem; }
+    h1 { font-size: 3.5rem; line-height: 4rem; }
+    h2 { font-size: 2.5rem; line-height: 3rem; }
     h3 { font-size: 1.5rem; line-height: 2rem; }
 
     h4, p, dl, ol, ul { font-size: 1.25rem; line-height: 2rem; }
+
     h5 { font-size: 1rem; }
     h6, small { font-size: .875rem; }
   }

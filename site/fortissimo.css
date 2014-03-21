@@ -42,7 +42,7 @@
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 1.5rem; }
   .helvetica h1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     line-height: 3rem; }
   .helvetica h2 {
     font-size: 1.5rem;
@@ -128,23 +128,23 @@
   font-family: 'EB Garamond', serif;
   line-height: 1.5rem; }
   .garamond h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 3rem; }
   .garamond h2 {
-    font-size: 1.5rem;
-    line-height: 2rem; }
+    font-size: 1.75rem;
+    line-height: 2.5rem; }
   .garamond h3 {
     font-size: 1.25rem;
     line-height: 2rem; }
   .garamond h4, .garamond p, .garamond dl, .garamond ol, .garamond ul {
-    font-size: 1rem; }
+    font-size: 1.125rem; }
   .garamond h5 {
     font-size: .875rem; }
   .garamond h6, .garamond small {
     font-size: .75rem; }
   @media screen and (min-width: 48em) {
     .garamond h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
       line-height: 4rem; }
     .garamond h2 {
       font-size: 2.5rem;
@@ -161,17 +161,17 @@
       font-size: .875rem; } }
   @media screen and (min-width: 64em) {
     .garamond h1 {
-      font-size: 5rem;
-      line-height: 6rem; }
+      font-size: 4.5rem;
+      line-height: 5rem; }
     .garamond h2 {
-      font-size: 4rem;
+      font-size: 3.75rem;
       line-height: 5rem; } }
 
 .open-sans {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5rem; }
   .open-sans h1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     line-height: 3rem; }
   .open-sans h2 {
     font-size: 1.5rem;
@@ -214,16 +214,16 @@
   font-family: 'Cardo', serif;
   line-height: 1.5rem; }
   .cardo h1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     line-height: 3rem; }
   .cardo h2 {
+    font-size: 1.75rem;
+    line-height: 2.5rem; }
+  .cardo h3 {
     font-size: 1.5rem;
     line-height: 2rem; }
-  .cardo h3 {
-    font-size: 1.25rem;
-    line-height: 2rem; }
   .cardo h4, .cardo p, .cardo dl, .cardo ol, .cardo ul {
-    font-size: 1rem; }
+    font-size: 1.125rem; }
   .cardo h5 {
     font-size: .875rem; }
   .cardo h6, .cardo small {
@@ -239,7 +239,7 @@
       font-size: 1.5rem;
       line-height: 2rem; }
     .cardo h4, .cardo p, .cardo dl, .cardo ol, .cardo ul {
-      font-size: 1.25rem;
+      font-size: 1.375rem;
       line-height: 2rem; }
     .cardo h5 {
       font-size: 1rem; }
@@ -257,16 +257,16 @@
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5rem; }
   .source-sans h1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     line-height: 3rem; }
   .source-sans h2 {
+    font-size: 1.75rem;
+    line-height: 2.5rem; }
+  .source-sans h3 {
     font-size: 1.5rem;
     line-height: 2rem; }
-  .source-sans h3 {
-    font-size: 1.25rem;
-    line-height: 2rem; }
   .source-sans h4, .source-sans p, .source-sans dl, .source-sans ol, .source-sans ul {
-    font-size: 1rem; }
+    font-size: 1.125rem; }
   .source-sans h5 {
     font-size: .875rem; }
   .source-sans h6, .source-sans small {
@@ -274,7 +274,7 @@
   @media screen and (min-width: 48em) {
     .source-sans h1 {
       font-size: 3rem;
-      line-height: 4rem; }
+      line-height: 3rem; }
     .source-sans h2 {
       font-size: 2rem;
       line-height: 3rem; }
@@ -282,7 +282,7 @@
       font-size: 1.5rem;
       line-height: 2rem; }
     .source-sans h4, .source-sans p, .source-sans dl, .source-sans ol, .source-sans ul {
-      font-size: 1.25rem;
+      font-size: 1.375rem;
       line-height: 2rem; }
     .source-sans h5 {
       font-size: 1rem; }
@@ -291,7 +291,7 @@
   @media screen and (min-width: 64em) {
     .source-sans h1 {
       font-size: 4rem;
-      line-height: 5rem; }
+      line-height: 4rem; }
     .source-sans h2 {
       font-size: 3rem;
       line-height: 4rem; } }
@@ -300,7 +300,7 @@
   font-family: 'PT Sans', sans-serif;
   line-height: 1.5rem; }
   .pt-sans h1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     line-height: 3rem; }
   .pt-sans h2 {
     font-size: 1.5rem;
@@ -309,7 +309,7 @@
     font-size: 1.25rem;
     line-height: 2rem; }
   .pt-sans h4, .pt-sans p, .pt-sans dl, .pt-sans ol, .pt-sans ul {
-    font-size: 1rem; }
+    font-size: 1.125rem; }
   .pt-sans h5 {
     font-size: .875rem; }
   .pt-sans h6, .pt-sans small {
@@ -325,7 +325,7 @@
       font-size: 1.5rem;
       line-height: 2rem; }
     .pt-sans h4, .pt-sans p, .pt-sans dl, .pt-sans ol, .pt-sans ul {
-      font-size: 1.25rem;
+      font-size: 1.375rem;
       line-height: 2rem; }
     .pt-sans h5 {
       font-size: 1rem; }
@@ -339,14 +339,56 @@
       font-size: 3rem;
       line-height: 4rem; } }
 
+.lato {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5rem; }
+  .lato h1 {
+    font-size: 2.5rem;
+    line-height: 3rem; }
+  .lato h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem; }
+  .lato h3 {
+    font-size: 1.25rem;
+    line-height: 2rem; }
+  .lato h4, .lato p, .lato dl, .lato ol, .lato ul {
+    font-size: 1.125rem;
+    line-height: 2rem; }
+  .lato h5 {
+    font-size: .875rem; }
+  .lato h6, .lato small {
+    font-size: .75rem; }
+  @media screen and (min-width: 48em) {
+    .lato h1 {
+      font-size: 3.5rem;
+      line-height: 4rem; }
+    .lato h2 {
+      font-size: 2.5rem;
+      line-height: 3rem; }
+    .lato h3 {
+      font-size: 1.5rem;
+      line-height: 2rem; }
+    .lato h4, .lato p, .lato dl, .lato ol, .lato ul {
+      font-size: 1.25rem;
+      line-height: 2rem; }
+    .lato h5 {
+      font-size: 1rem; }
+    .lato h6, .lato small {
+      font-size: .875rem; } }
+  @media screen and (min-width: 64em) {
+    .lato h1 {
+      font-size: 4rem;
+      line-height: 5rem; }
+    .lato h2 {
+      font-size: 3rem;
+      line-height: 4rem; } }
+
 /*
     Fonts:
     - .georgia { font-family: Georgia, serif; }
     - Vollkorn
     - Gentium Book
-    - Lato
     - Oswald
     - Old Standard TT
     - PT Serif
-
- */
+*/
