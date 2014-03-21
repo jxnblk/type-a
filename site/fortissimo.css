@@ -147,13 +147,13 @@
       font-size: 3rem;
       line-height: 4rem; }
     .garamond h2 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       line-height: 3rem; }
     .garamond h3 {
-      font-size: 1.5rem;
-      line-height: 2rem; }
+      font-size: 2rem;
+      line-height: 3rem; }
     .garamond h4, .garamond p, .garamond dl, .garamond ol, .garamond ul {
-      font-size: 1.25rem;
+      font-size: 1.375rem;
       line-height: 2rem; }
     .garamond h5 {
       font-size: 1rem; }
@@ -161,11 +161,11 @@
       font-size: .875rem; } }
   @media screen and (min-width: 64em) {
     .garamond h1 {
-      font-size: 4rem;
-      line-height: 5rem; }
+      font-size: 5rem;
+      line-height: 6rem; }
     .garamond h2 {
-      font-size: 3rem;
-      line-height: 4rem; } }
+      font-size: 4rem;
+      line-height: 5rem; } }
 
 .open-sans {
   font-family: 'Open Sans', sans-serif;
