@@ -11,12 +11,36 @@
 
 
 @import "reset";
-//@import "type";
+
+@import "type-utilities";
+
+@import "helvetica";
+@import "merriweather";
+@import "garamond";
+@import "open-sans";
+
+@import "cardo";
+@import "source-sans";
+@import "pt-sans";
+@import "lato";
+
+@import "gentium";
+
+@import "source-code-pro";
+
+/*
+  Fonts to add:
+    - Vollkorn
+    - Gentium Book
+    - Oswald
+    - Old Standard TT
+    - PT Serif
+*/
+
 @import "margins";
 @import "padding";
 @import "utilities";
 @import "buttons";
-@import "forms";
 @import "lists";
 @import "positions";
 @import "theme";
