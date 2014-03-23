@@ -66,9 +66,15 @@ body {
 
 a {
   color: $blue;
+  svg {
+    fill: $blue;
+  }
   text-decoration: none;
   &:hover {
     color: darken($blue, 10%);
+    svg {
+      fill: darken($blue, 10%);
+    }
   }
 }
 

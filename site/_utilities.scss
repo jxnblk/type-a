@@ -18,6 +18,12 @@
 .full-width { width: 100%; }
 .half-width { width: 50%; }
 
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
 @media (min-width: 40em) {
   .fifth { width: 20%; }
   .aspect-2o1 {
