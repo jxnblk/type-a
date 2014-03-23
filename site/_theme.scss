@@ -5,34 +5,36 @@ $light-gray: #eee;
 $mid-gray: #777;
 $dark-gray: #333;
 
-$red: #f52;
+//$red: #f52;
 $green: #0f6;
 $orange: #fc2;
 
 // Fortissimo colors
 $dark-blue: #245;
-$light-yellow: #fea;
+//$light-yellow: #fea;
+$cream: #fff6df;
 $slate: #506670;
-$light-blue: #aef;
+//$light-blue: #aef;
+$light-blue: #cff6ff;
 $turquoise: #0cc;
 $red: #f63;
-$dark-red: #310;
+//$dark-red: #310;
 $dark-red: #521;
 
-$warm-gray: #a09f96;
+//$warm-gray: #a09f96;
 $warm-gray: #807f76;
 
-.bg-dark-blue { background-color: rgba($dark-blue, .8); }
-.bg-light-yellow { background-color: rgba($light-yellow, .3); }
-.bg-slate { background-color: rgba($slate, .8); }
-.bg-light-blue { background-color: rgba($light-blue, .8); }
-.bg-turquoise { background-color: rgba($turquoise, .8); }
-.bg-warm-gray { background-color: rgba($warm-gray, .9); }
+.bg-dark-blue { background-color: $dark-blue; }
+.bg-cream { background-color: $cream; }
+.bg-slate { background-color: $slate; }
+.bg-light-blue { background-color: $light-blue; }
+.bg-turquoise { background-color: $turquoise; }
+.bg-warm-gray { background-color: $warm-gray; }
 
 .slate { color: $slate; }
 .turquoise { color: turquoise; }
 .dark-red { color: $dark-red; }
-.light-yellow { color: $light-yellow; }
+.cream { color: $cream; }
 
 .white { color: #fff; }
 .blue { color: $blue; }

@@ -1,5 +1,17 @@
 // Type utilities
 
+//hr {
+//  height: 0;
+//  border-style: none;
+//  border-bottom: 1px solid;
+//}
+
+hr {
+  height: .5rem;
+  margin-bottom: .9375rem;
+  border-style: none;
+  border-bottom: .0625rem solid;
+}
 
 .bold { font-weight: bold; }
 .regular { font-weight: normal; }
@@ -12,7 +24,7 @@
 // Typographical Measure
 // Use with the .wrap class to center container
 
-.measure { max-width: 48rem; }
+.measure { max-width: 44rem; }
 .measure-narrow { max-width: 32rem; }
 .measure-wide { max-width: 60rem; }
 
