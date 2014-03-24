@@ -1,0 +1,50 @@
+/*
+ * Type A: Source Sans Pro
+ * 
+ * Type A
+ * Responsive type styles for Google Webfonts
+ * http://jxnblk.github.io/type-a
+ *
+ *
+ * Usage:
+ *
+ * 1. Include this link in the HTML document head:
+ *    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+ *
+ * 2. Link to or include this CSS file.
+ *    <link href="source-sans-pro.css" rel="stylesheet">
+ *
+ * 3. Optionally, include the type-utilities CSS file.
+ *
+ *
+ * Source Sans Pro on Google Webfonts: https://www.google.com/fonts/specimen/Source+Sans+Pro
+ *
+ */
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5rem;
+}
+
+h1 { font-size: 2.25rem; line-height: 3rem; }
+h2 { font-size: 1.75rem; line-height: 2.5rem; }
+h3 { font-size: 1.5rem; line-height: 2rem; }
+h4, p, dl, ol, ul { font-size: 1.125rem; }
+h5 { font-size: .875rem; }
+h6, small { font-size: .75rem; }
+
+@media screen and (min-width: 48em) {
+  h1 { font-size: 3rem; line-height: 3rem; }
+  h2 { font-size: 2rem; line-height: 3rem; }
+  h3 { font-size: 1.5rem; line-height: 2rem; }
+  h4, p, dl, ol, ul { font-size: 1.375rem; line-height: 2rem; }
+  h5 { font-size: 1rem; }
+  h6, small { font-size: .875rem; }
+}
+
+@media screen and (min-width: 64em) {
+  h1 { font-size: 4rem; line-height: 4rem; }
+  h2 { font-size: 3rem; line-height: 4rem; }
+}
+
