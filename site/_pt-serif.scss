@@ -1,0 +1,44 @@
+
+// PT Serif
+
+.pt-serif {
+
+  font-family: 'PT Serif', serif;
+  line-height: 1.5rem;
+
+  //h1, h2, h3, h4, h5, h6 {
+  //  margin-top: 0;
+  //  margin-bottom: .5rem;
+  //}
+
+  p, dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 { font-size: 2rem; line-height: 2.5rem; }
+  h2 { font-size: 1.5rem; line-height: 2rem; }
+  h3 { font-size: 1.25rem; line-height: 1.5rem; }
+
+  h4, p, dl, ol, ul { font-size: 1.125rem; }
+  h5 { font-size: 1rem; }
+  h6, small { font-size: .875rem; }
+
+  @media screen and (min-width: 48em) {
+    h1 { font-size: 3rem; line-height: 3.5rem; }
+    h2 { font-size: 2rem; line-height: 2.5rem; }
+    h3 { font-size: 1.5rem; line-height: 2rem; }
+
+    h4, p, dl, ol, ul { font-size: 1.25rem; line-height: 2rem; }
+    h5 { font-size: 1rem; }
+    h6, small { font-size: .875rem; }
+  }
+
+  @media screen and (min-width: 64em) {
+    h1 { font-size: 4rem; line-height: 5rem; }
+    h2 { font-size: 3rem; line-height: 4rem; }
+  }
+
+}
+
+
