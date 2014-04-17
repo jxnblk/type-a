@@ -1,5 +1,5 @@
 /*
- * Type A: Cardo
+ * Type A: PT Serif & Sans
  * 
  * Type A
  * Responsive type styles for Google Webfonts
@@ -9,36 +9,37 @@
  * Usage:
  *
  * 1. Include this link in the HTML document head:
- *    <link href="http://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
+ *    <link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700|PT+Sans:400,700" rel="stylesheet">
  *
  * 2. Link to or include this CSS file.
- *    <link href="cardo.css" rel="stylesheet">
+ *    <link href="pt-serif-sans.css" rel="stylesheet">
  *
  * 3. Optionally, include the type-utilities CSS file.
  *
  *
- * Cardo on Google Webfonts: https://www.google.com/fonts/specimen/Cardo
+ * PT Serif on Google Webfonts: https://www.google.com/fonts/specimen/PT+Serif
+ * PT Sans on Google Webfonts: https://www.google.com/fonts/specimen/PT+Sans
  *
  */
 
 
 body {
-  font-family: 'Cardo', serif;
-  line-height: 1.625;
+  font-family: 'PT Serif', serif;
+  line-height: 1.5;
 }
+.sans { font-family: 'PT Sans', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 { margin-top: 0; margin-bottom: 0; }
-h1, h2 { line-height: 1.25; }
 p, dl, ol, ul { margin-top: 0; margin-bottom: 2rem; }
 
-h1 { font-size: 2.25rem; }
-h2 { font-size: 1.75rem; }
-h3 { font-size: 1.5rem; }
-h4, p, dl, ol, ul { font-size: 1.125rem; }
+h1 { font-size: 2.25rem; line-height: 1.25; }
+h2 { font-size: 1.5rem; line-height: 1.25; }
+h3 { font-size: 1.25rem; }
+h4, p, dl, ol, ul { font-size: 1.125rem; } 
 h5 { font-size: .875rem; }
 h6, small { font-size: .75rem; }
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 48em) {
   h1 { font-size: 3rem; }
   h2 { font-size: 2rem; }
   h3 { font-size: 1.5rem; }
