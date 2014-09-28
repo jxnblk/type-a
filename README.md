@@ -2,9 +2,9 @@
 # Type A
 
 ## Scaled Utilities:
-- Tracking - wide - narrow
-- Baseline Shift - up - down
-- Bigger Smaller
+~ - Tracking - wide - narrow
+~ - Baseline Shift - up - down
+~ - Bigger Smaller
 - Line Heights
 
 

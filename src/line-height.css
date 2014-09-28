@@ -1,0 +1,13 @@
+/*
+ * Line Height Utilities
+ */
+
+.line-height-1 { line-height: 1 }
+.line-height-2 { line-height: 1.125 }
+.line-height-3 { line-height: 1.25 }
+.line-height-4 { line-height: 1.375 }
+.line-height-5 { line-height: 1.5 }
+.line-height-6 { line-height: 2 }
+.line-height-7 { line-height: 3 }
+.line-height-8 { line-height: 4 }
+

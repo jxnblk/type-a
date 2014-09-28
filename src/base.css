@@ -1,0 +1,27 @@
+
+@import "basscss-base";
+@import "basscss-utilities";
+@import "basscss-grid";
+@import "basscss-table-object";
+
+:root {
+  /*
+  --font-family: Georgia, serif;
+  */
+  --dark-gray: #333;
+  --blue: #0076df;
+}
+
+body {
+  color: var(--dark-gray);
+  background-color: white;
+}
+
+/* Type A
+ */
+
+@import "./tracking";
+@import "./size";
+@import "./baseline";
+@import "./line-height";
+

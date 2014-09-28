@@ -1,0 +1,22 @@
+/*
+ * Tracking Utilities
+ */
+
+.track-wide-1 { letter-spacing: .05em }
+.track-wide-2 { letter-spacing: .1em }
+.track-wide-3 { letter-spacing: .15em }
+.track-wide-4 { letter-spacing: .2em }
+.track-wide-5 { letter-spacing: .25em }
+.track-wide-6 { letter-spacing: .3em }
+.track-wide-7 { letter-spacing: .35em }
+.track-wide-8 { letter-spacing: .4em }
+
+.track-narrow-1 { letter-spacing: -.025em }
+.track-narrow-2 { letter-spacing: -.05em }
+.track-narrow-3 { letter-spacing: -.075em }
+.track-narrow-4 { letter-spacing: -.1em }
+.track-narrow-5 { letter-spacing: -.125em }
+.track-narrow-6 { letter-spacing: -.15em }
+.track-narrow-7 { letter-spacing: -.175em }
+.track-narrow-8 { letter-spacing: -.2em }
+

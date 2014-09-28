@@ -1,0 +1,29 @@
+/*
+ * Relative Sizing Utilities
+ */
+
+.type-bigger-1 { font-size: 1.25em }
+.type-bigger-2 { font-size: 1.5em }
+.type-bigger-3 { font-size: 1.75em }
+.type-bigger-4 { font-size: 2em }
+
+/*
+.type-bigger-5 { font-size: 2.25em }
+.type-bigger-6 { font-size: 2.5em }
+.type-bigger-7 { font-size: 2.75em }
+.type-bigger-8 { font-size: 3em }
+*/
+
+.type-smaller-1 { font-size: .875em }
+.type-smaller-2 { font-size: .75em }
+.type-smaller-3 { font-size: .625em }
+.type-smaller-4 { font-size: .5em }
+
+/*
+.type-smaller-5 { font-size: .375em }
+.type-smaller-6 { font-size: .25em }
+.type-smaller-7 { font-size: .125em }
+.type-smaller-8 { font-size: .5em }
+*/
+
+

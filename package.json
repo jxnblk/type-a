@@ -1,0 +1,23 @@
+{
+  "name": "type-a",
+  "version": "0.0.1",
+  "description": "Powerful typographic CSS utilities",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/type-a.git"
+  },
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/type-a/issues"
+  },
+  "homepage": "https://github.com/jxnblk/type-a",
+  "devDependencies": {
+    "basscss-table-object": "0.0.3",
+    "basscss-grid": "0.0.9",
+    "basscss-utilities": "0.0.13",
+    "basscss-base": "0.0.14",
+    "gulp": "^3.8.8",
+    "gulp-basswork": "0.0.8"
+  }
+}

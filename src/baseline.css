@@ -1,0 +1,22 @@
+/*
+ * Baseline Shift Utilities
+ */
+
+.baseline-up-1 { position: relative; top: -.125em }
+.baseline-up-2 { position: relative; top: -.25em }
+.baseline-up-3 { position: relative; top: -.375em }
+.baseline-up-4 { position: relative; top: -.5em }
+.baseline-up-5 { position: relative; top: -.625em }
+.baseline-up-6 { position: relative; top: -.75em }
+.baseline-up-7 { position: relative; top: -.875em }
+.baseline-up-8 { position: relative; top: -1em }
+
+.baseline-down-1 { position: relative; top: .125em }
+.baseline-down-2 { position: relative; top: .25em }
+.baseline-down-3 { position: relative; top: .375em }
+.baseline-down-4 { position: relative; top: .5em }
+.baseline-down-5 { position: relative; top: .625em }
+.baseline-down-6 { position: relative; top: .75em }
+.baseline-down-7 { position: relative; top: .875em }
+.baseline-down-8 { position: relative; top: 1em }
+
