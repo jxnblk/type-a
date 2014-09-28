@@ -8,9 +8,15 @@
   /*
   --font-family: Georgia, serif;
   */
-  --dark-gray: #333;
+  --dark-gray: #445;
   --blue: #0076df;
+  --red: #e05300;
+  --light-gray: #ece6e0;
+  --mid-gray: #666670;
 }
+
+/* Basscss override */
+.caps { letter-spacing: 0 }
 
 body {
   color: var(--dark-gray);
@@ -37,4 +43,8 @@ body {
 
 /* Color */
 .tomato { color: tomato }
+.red { color: var(--red) }
+.mid-gray { color: var(--mid-gray) }
+
+.bg-light-gray { background-color: var(--light-gray) }
 

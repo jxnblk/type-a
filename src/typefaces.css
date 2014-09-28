@@ -7,13 +7,18 @@
 .avenir { font-family: 'Avenir Next', sans-serif }
 .gill-sans { font-family: 'Gill Sans', sans-serif }
 .din-condensed { font-family: 'DIN Condensed', sans-serif }
+.futura { font-family: Futura, sans-serif }
 
 /* Google Web Fonts */
 .merriweather { font-family: Merriweather, serif }
 .pt-serif { font-family: 'PT Serif', serif }
+.source-serif { font-family: 'Source Serif Pro', serif }
+.cardo { font-family: 'Cardo', serif }
 
 .pt-sans { font-family: 'PT Sans', sans-serif }
+.source-sans { font-family: 'Source Sans Pro', sans-serif }
+.open-sans { font-family: 'Open Sans', sans-serif }
 
 /* Typekit */
-.futura { font-family: Futura, sans-serif }
+.garamond { font-family: 'Adobe Garamond', 'Apple Garamond', serif }
 

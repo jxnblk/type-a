@@ -826,8 +826,14 @@ td {
   */
 }
 
+/* Basscss override */
+
+.caps {
+  letter-spacing: 0;
+}
+
 body {
-  color: #333;
+  color: #445;
   background-color: white;
 }
 
@@ -1168,6 +1174,10 @@ body {
   font-family: 'DIN Condensed', sans-serif;
 }
 
+.futura {
+  font-family: Futura, sans-serif;
+}
+
 /* Google Web Fonts */
 
 .merriweather {
@@ -1178,14 +1188,30 @@ body {
   font-family: 'PT Serif', serif;
 }
 
+.source-serif {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.cardo {
+  font-family: 'Cardo', serif;
+}
+
 .pt-sans {
   font-family: 'PT Sans', sans-serif;
 }
 
+.source-sans {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* Typekit */
 
-.futura {
-  font-family: Futura, sans-serif;
+.garamond {
+  font-family: 'Adobe Garamond', 'Apple Garamond', serif;
 }
 
 /* Experimental */
@@ -1232,4 +1258,16 @@ body {
 
 .tomato {
   color: tomato;
+}
+
+.red {
+  color: #e05300;
+}
+
+.mid-gray {
+  color: #666670;
+}
+
+.bg-light-gray {
+  background-color: #ece6e0;
 }
