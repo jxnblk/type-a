@@ -1,0 +1,10 @@
+/*
+ * Half-Height Utility
+ */
+
+.half-height {
+  font-size: .5em;
+  line-height: 1;
+  display: inline-block;
+}
+

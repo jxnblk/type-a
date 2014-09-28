@@ -958,82 +958,82 @@ body {
 
 .baseline-up-1 {
   position: relative;
-  top: -.125em;
+  top: -.0625em;
 }
 
 .baseline-up-2 {
   position: relative;
-  top: -.25em;
+  top: -.125em;
 }
 
 .baseline-up-3 {
   position: relative;
-  top: -.375em;
+  top: -.1875em;
 }
 
 .baseline-up-4 {
   position: relative;
-  top: -.5em;
+  top: -.25em;
 }
 
 .baseline-up-5 {
   position: relative;
-  top: -.625em;
+  top: -.3125em;
 }
 
 .baseline-up-6 {
   position: relative;
-  top: -.75em;
+  top: -.375em;
 }
 
 .baseline-up-7 {
   position: relative;
-  top: -.875em;
+  top: -.4375em;
 }
 
 .baseline-up-8 {
   position: relative;
-  top: -1em;
+  top: -.5em;
 }
 
 .baseline-down-1 {
   position: relative;
-  top: .125em;
+  top: .0625em;
 }
 
 .baseline-down-2 {
   position: relative;
-  top: .25em;
+  top: .125em;
 }
 
 .baseline-down-3 {
   position: relative;
-  top: .375em;
+  top: .1875em;
 }
 
 .baseline-down-4 {
   position: relative;
-  top: .5em;
+  top: .25em;
 }
 
 .baseline-down-5 {
   position: relative;
-  top: .625em;
+  top: .3125em;
 }
 
 .baseline-down-6 {
   position: relative;
-  top: .75em;
+  top: .375em;
 }
 
 .baseline-down-7 {
   position: relative;
-  top: .875em;
+  top: .4375em;
 }
 
 .baseline-down-8 {
   position: relative;
-  top: 1em;
+  top: .5em;
 }
 
 /*
@@ -1070,4 +1070,166 @@ body {
 
 .line-height-8 {
   line-height: 4;
+}
+
+/*
+ * Font Weight Utilities
+ */
+
+.light {
+  font-weight: 200;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+/*
+ * Text Alignment Utilities
+ */
+
+.center {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.justify-last:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+/*
+ * Type Style Utilties
+ */
+
+.caps {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* System Fonts */
+
+.georgia {
+  font-family: Georgia, serif;
+}
+
+.baskerville {
+  font-family: Baskerville, serif;
+}
+
+.verdana {
+  font-family: Verdana, sans-serif;
+}
+
+.avenir {
+  font-family: 'Avenir Next', sans-serif;
+}
+
+.gill-sans {
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.din-condensed {
+  font-family: 'DIN Condensed', sans-serif;
+}
+
+/* Google Web Fonts */
+
+.merriweather {
+  font-family: Merriweather, serif;
+}
+
+.pt-serif {
+  font-family: 'PT Serif', serif;
+}
+
+.pt-sans {
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Typekit */
+
+.futura {
+  font-family: Futura, sans-serif;
+}
+
+/* Experimental */
+
+/*
+ * Big Headline Style Headings
+ */
+
+.big-h1 {
+  font-size: 16rem;
+}
+
+.big-h2 {
+  font-size: 12rem;
+}
+
+.big-h3 {
+  font-size: 8rem;
+}
+
+.big-h4 {
+  font-size: 6rem;
+}
+
+.big-h5 {
+  font-size: 4rem;
+}
+
+.big-h6 {
+  font-size: 3rem;
+}
+
+/*
+ * Half-Height Utility
+ */
+
+.half-height {
+  font-size: .5em;
+  line-height: 1;
+  display: inline-block;
+}
+
+/* Color */
+
+.tomato {
+  color: tomato;
 }

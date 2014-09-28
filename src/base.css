@@ -24,4 +24,17 @@ body {
 @import "./size";
 @import "./baseline";
 @import "./line-height";
+@import "./weights";
+@import "./alignment";
+@import "./type-style";
+
+@import "./typefaces";
+
+/* Experimental */
+@import "./big-headings";
+@import "./half-height";
+
+
+/* Color */
+.tomato { color: tomato }
 

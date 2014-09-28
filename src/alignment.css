@@ -1,0 +1,15 @@
+/*
+ * Text Alignment Utilities
+ */
+
+.center      { text-align: center }
+.left-align  { text-align: left }
+.right-align { text-align: right }
+.justify     { text-align: justify }
+
+.justify-last:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
