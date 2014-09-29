@@ -13,6 +13,8 @@
   --red: #e05300;
   --light-gray: #ece6e0;
   --mid-gray: #666670;
+  --space-3: 3rem;
+  --space-4: 6rem;
 }
 
 /* Basscss override */
@@ -39,6 +41,7 @@ body {
 /* Experimental */
 @import "./big-headings";
 @import "./half-height";
+@import "./hr";
 
 
 /* Color */
